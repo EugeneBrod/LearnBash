@@ -3,6 +3,6 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 git add -A
-git commit -m "$#"
+git commit -m "$1"
 git push origin master
 
